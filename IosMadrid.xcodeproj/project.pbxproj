@@ -7,23 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3419533203D6EE4004F9CD5 /* ImplementaJugadoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3419532203D6EE4004F9CD5 /* ImplementaJugadoresTableViewController.swift */; };
+		E3419539203D70FE004F9CD5 /* Jugadores.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3419538203D70FE004F9CD5 /* Jugadores.plist */; };
 		E342C497203C168F007132B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342C496203C168F007132B2 /* AppDelegate.swift */; };
 		E342C499203C168F007132B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342C498203C168F007132B2 /* ViewController.swift */; };
-		E342C49C203C168F007132B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E342C49A203C168F007132B2 /* Main.storyboard */; };
 		E342C49F203C168F007132B2 /* IosMadrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E342C49D203C168F007132B2 /* IosMadrid.xcdatamodeld */; };
 		E342C4A1203C1690007132B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E342C4A0203C1690007132B2 /* Assets.xcassets */; };
 		E342C4A4203C1690007132B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E342C4A2203C1690007132B2 /* LaunchScreen.storyboard */; };
+		E342C4BF203C170E007132B2 /* alaves.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4AB203C170E007132B2 /* alaves.png */; };
+		E342C4C0203C170E007132B2 /* athletic.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4AC203C170E007132B2 /* athletic.png */; };
+		E342C4C1203C170E007132B2 /* atm.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4AD203C170E007132B2 /* atm.png */; };
+		E342C4C2203C170E007132B2 /* betis.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4AE203C170E007132B2 /* betis.png */; };
+		E342C4C3203C170E007132B2 /* celta.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4AF203C170E007132B2 /* celta.png */; };
+		E342C4C4203C170E007132B2 /* depor.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B0203C170E007132B2 /* depor.png */; };
+		E342C4C5203C170E007132B2 /* eibar.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B1203C170E007132B2 /* eibar.png */; };
+		E342C4C6203C170E007132B2 /* espanyol.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B2203C170E007132B2 /* espanyol.png */; };
+		E342C4C7203C170E007132B2 /* fcb.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B3203C170E007132B2 /* fcb.png */; };
+		E342C4C8203C170E007132B2 /* granada.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B4203C170E007132B2 /* granada.png */; };
+		E342C4C9203C170E007132B2 /* laspalmas.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B5203C170E007132B2 /* laspalmas.png */; };
+		E342C4CA203C170E007132B2 /* leganes.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B6203C170E007132B2 /* leganes.png */; };
+		E342C4CB203C170E007132B2 /* malaga.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B7203C170E007132B2 /* malaga.png */; };
+		E342C4CC203C170E007132B2 /* osasuna.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B8203C170E007132B2 /* osasuna.png */; };
+		E342C4CD203C170E007132B2 /* realmadrid.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4B9203C170E007132B2 /* realmadrid.png */; };
+		E342C4CE203C170E007132B2 /* realsociedad.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4BA203C170E007132B2 /* realsociedad.png */; };
+		E342C4CF203C170E007132B2 /* realsporting.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4BB203C170E007132B2 /* realsporting.png */; };
+		E342C4D0203C170E007132B2 /* sevilla.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4BC203C170E007132B2 /* sevilla.png */; };
+		E342C4D1203C170E007132B2 /* valencia.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4BD203C170E007132B2 /* valencia.png */; };
+		E342C4D2203C170E007132B2 /* villarreal.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4BE203C170E007132B2 /* villarreal.png */; };
+		E342C4D7203C1730007132B2 /* Aurtenetxe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E342C4D4203C1730007132B2 /* Aurtenetxe.jpg */; };
+		E342C4D8203C1730007132B2 /* Iraizoz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E342C4D5203C1730007132B2 /* Iraizoz.jpg */; };
+		E342C4D9203C1730007132B2 /* Toquero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E342C4D6203C1730007132B2 /* Toquero.jpg */; };
+		E342C4DF203C1750007132B2 /* E1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E342C4DB203C1750007132B2 /* E1.jpg */; };
+		E342C4E0203C1750007132B2 /* E2.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4DC203C1750007132B2 /* E2.png */; };
+		E342C4E1203C1750007132B2 /* E3.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4DD203C1750007132B2 /* E3.png */; };
+		E342C4E2203C1750007132B2 /* EP.png in Resources */ = {isa = PBXBuildFile; fileRef = E342C4DE203C1750007132B2 /* EP.png */; };
+		E342C4E5203C1E13007132B2 /* santiago_bernabeu.jpg8c21918d-5734-4a92-b204-67fba668b870Original.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E342C4E4203C1E13007132B2 /* santiago_bernabeu.jpg8c21918d-5734-4a92-b204-67fba668b870Original.jpg */; };
+		E3AA3394203D977700E99396 /* EntradasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AA3393203D977600E99396 /* EntradasTableViewController.swift */; };
+		E3D256A9203ECA8D00936A8C /* JugadoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D256A8203ECA8C00936A8C /* JugadoresTableViewController.swift */; };
+		E3D256AC203EDA7A00936A8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D256AA203EDA7A00936A8C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3419532203D6EE4004F9CD5 /* ImplementaJugadoresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplementaJugadoresTableViewController.swift; sourceTree = "<group>"; };
+		E3419538203D70FE004F9CD5 /* Jugadores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Jugadores.plist; sourceTree = "<group>"; };
 		E342C493203C168F007132B2 /* IosMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E342C496203C168F007132B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E342C498203C168F007132B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E342C49B203C168F007132B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E342C49E203C168F007132B2 /* IosMadrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IosMadrid.xcdatamodel; sourceTree = "<group>"; };
 		E342C4A0203C1690007132B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E342C4A3203C1690007132B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E342C4A5203C1690007132B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E342C4AB203C170E007132B2 /* alaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alaves.png; sourceTree = "<group>"; };
+		E342C4AC203C170E007132B2 /* athletic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = athletic.png; sourceTree = "<group>"; };
+		E342C4AD203C170E007132B2 /* atm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atm.png; sourceTree = "<group>"; };
+		E342C4AE203C170E007132B2 /* betis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = betis.png; sourceTree = "<group>"; };
+		E342C4AF203C170E007132B2 /* celta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celta.png; sourceTree = "<group>"; };
+		E342C4B0203C170E007132B2 /* depor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = depor.png; sourceTree = "<group>"; };
+		E342C4B1203C170E007132B2 /* eibar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eibar.png; sourceTree = "<group>"; };
+		E342C4B2203C170E007132B2 /* espanyol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = espanyol.png; sourceTree = "<group>"; };
+		E342C4B3203C170E007132B2 /* fcb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fcb.png; sourceTree = "<group>"; };
+		E342C4B4203C170E007132B2 /* granada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = granada.png; sourceTree = "<group>"; };
+		E342C4B5203C170E007132B2 /* laspalmas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laspalmas.png; sourceTree = "<group>"; };
+		E342C4B6203C170E007132B2 /* leganes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leganes.png; sourceTree = "<group>"; };
+		E342C4B7203C170E007132B2 /* malaga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = malaga.png; sourceTree = "<group>"; };
+		E342C4B8203C170E007132B2 /* osasuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = osasuna.png; sourceTree = "<group>"; };
+		E342C4B9203C170E007132B2 /* realmadrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realmadrid.png; sourceTree = "<group>"; };
+		E342C4BA203C170E007132B2 /* realsociedad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realsociedad.png; sourceTree = "<group>"; };
+		E342C4BB203C170E007132B2 /* realsporting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realsporting.png; sourceTree = "<group>"; };
+		E342C4BC203C170E007132B2 /* sevilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sevilla.png; sourceTree = "<group>"; };
+		E342C4BD203C170E007132B2 /* valencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = valencia.png; sourceTree = "<group>"; };
+		E342C4BE203C170E007132B2 /* villarreal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = villarreal.png; sourceTree = "<group>"; };
+		E342C4D4203C1730007132B2 /* Aurtenetxe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aurtenetxe.jpg; sourceTree = "<group>"; };
+		E342C4D5203C1730007132B2 /* Iraizoz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Iraizoz.jpg; sourceTree = "<group>"; };
+		E342C4D6203C1730007132B2 /* Toquero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Toquero.jpg; sourceTree = "<group>"; };
+		E342C4DB203C1750007132B2 /* E1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = E1.jpg; sourceTree = "<group>"; };
+		E342C4DC203C1750007132B2 /* E2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E2.png; sourceTree = "<group>"; };
+		E342C4DD203C1750007132B2 /* E3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E3.png; sourceTree = "<group>"; };
+		E342C4DE203C1750007132B2 /* EP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EP.png; sourceTree = "<group>"; };
+		E342C4E4203C1E13007132B2 /* santiago_bernabeu.jpg8c21918d-5734-4a92-b204-67fba668b870Original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "santiago_bernabeu.jpg8c21918d-5734-4a92-b204-67fba668b870Original.jpg"; sourceTree = "<group>"; };
+		E3AA3393203D977600E99396 /* EntradasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntradasTableViewController.swift; path = ../EntradasTableViewController.swift; sourceTree = "<group>"; };
+		E3D256A8203ECA8C00936A8C /* JugadoresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JugadoresTableViewController.swift; sourceTree = "<group>"; };
+		E3D256AB203EDA7A00936A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +120,71 @@
 		E342C495203C168F007132B2 /* IosMadrid */ = {
 			isa = PBXGroup;
 			children = (
+				E342C4E3203C1756007132B2 /* equipaciones */,
+				E342C4DA203C1736007132B2 /* jugadores */,
+				E342C4D3203C1716007132B2 /* escudos */,
 				E342C496203C168F007132B2 /* AppDelegate.swift */,
 				E342C498203C168F007132B2 /* ViewController.swift */,
-				E342C49A203C168F007132B2 /* Main.storyboard */,
+				E3D256A8203ECA8C00936A8C /* JugadoresTableViewController.swift */,
+				E3419532203D6EE4004F9CD5 /* ImplementaJugadoresTableViewController.swift */,
+				E3D256AA203EDA7A00936A8C /* Main.storyboard */,
 				E342C4A0203C1690007132B2 /* Assets.xcassets */,
 				E342C4A2203C1690007132B2 /* LaunchScreen.storyboard */,
 				E342C4A5203C1690007132B2 /* Info.plist */,
 				E342C49D203C168F007132B2 /* IosMadrid.xcdatamodeld */,
+				E3419538203D70FE004F9CD5 /* Jugadores.plist */,
+				E3AA3393203D977600E99396 /* EntradasTableViewController.swift */,
 			);
 			path = IosMadrid;
+			sourceTree = "<group>";
+		};
+		E342C4D3203C1716007132B2 /* escudos */ = {
+			isa = PBXGroup;
+			children = (
+				E342C4AB203C170E007132B2 /* alaves.png */,
+				E342C4AC203C170E007132B2 /* athletic.png */,
+				E342C4AD203C170E007132B2 /* atm.png */,
+				E342C4AE203C170E007132B2 /* betis.png */,
+				E342C4AF203C170E007132B2 /* celta.png */,
+				E342C4B0203C170E007132B2 /* depor.png */,
+				E342C4B1203C170E007132B2 /* eibar.png */,
+				E342C4B2203C170E007132B2 /* espanyol.png */,
+				E342C4B3203C170E007132B2 /* fcb.png */,
+				E342C4B4203C170E007132B2 /* granada.png */,
+				E342C4B5203C170E007132B2 /* laspalmas.png */,
+				E342C4B6203C170E007132B2 /* leganes.png */,
+				E342C4B7203C170E007132B2 /* malaga.png */,
+				E342C4B8203C170E007132B2 /* osasuna.png */,
+				E342C4B9203C170E007132B2 /* realmadrid.png */,
+				E342C4BA203C170E007132B2 /* realsociedad.png */,
+				E342C4BB203C170E007132B2 /* realsporting.png */,
+				E342C4BC203C170E007132B2 /* sevilla.png */,
+				E342C4BD203C170E007132B2 /* valencia.png */,
+				E342C4BE203C170E007132B2 /* villarreal.png */,
+			);
+			name = escudos;
+			sourceTree = "<group>";
+		};
+		E342C4DA203C1736007132B2 /* jugadores */ = {
+			isa = PBXGroup;
+			children = (
+				E342C4D4203C1730007132B2 /* Aurtenetxe.jpg */,
+				E342C4D5203C1730007132B2 /* Iraizoz.jpg */,
+				E342C4D6203C1730007132B2 /* Toquero.jpg */,
+			);
+			name = jugadores;
+			sourceTree = "<group>";
+		};
+		E342C4E3203C1756007132B2 /* equipaciones */ = {
+			isa = PBXGroup;
+			children = (
+				E342C4E4203C1E13007132B2 /* santiago_bernabeu.jpg8c21918d-5734-4a92-b204-67fba668b870Original.jpg */,
+				E342C4DB203C1750007132B2 /* E1.jpg */,
+				E342C4DC203C1750007132B2 /* E2.png */,
+				E342C4DD203C1750007132B2 /* E3.png */,
+				E342C4DE203C1750007132B2 /* EP.png */,
+			);
+			name = equipaciones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +246,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E342C4CB203C170E007132B2 /* malaga.png in Resources */,
+				E342C4C9203C170E007132B2 /* laspalmas.png in Resources */,
+				E342C4DF203C1750007132B2 /* E1.jpg in Resources */,
+				E342C4D7203C1730007132B2 /* Aurtenetxe.jpg in Resources */,
+				E342C4D9203C1730007132B2 /* Toquero.jpg in Resources */,
+				E342C4C1203C170E007132B2 /* atm.png in Resources */,
+				E342C4C8203C170E007132B2 /* granada.png in Resources */,
+				E342C4C5203C170E007132B2 /* eibar.png in Resources */,
+				E342C4E5203C1E13007132B2 /* santiago_bernabeu.jpg8c21918d-5734-4a92-b204-67fba668b870Original.jpg in Resources */,
+				E342C4CF203C170E007132B2 /* realsporting.png in Resources */,
+				E342C4CE203C170E007132B2 /* realsociedad.png in Resources */,
+				E3D256AC203EDA7A00936A8C /* Main.storyboard in Resources */,
+				E342C4D8203C1730007132B2 /* Iraizoz.jpg in Resources */,
+				E342C4D0203C170E007132B2 /* sevilla.png in Resources */,
+				E3419539203D70FE004F9CD5 /* Jugadores.plist in Resources */,
 				E342C4A4203C1690007132B2 /* LaunchScreen.storyboard in Resources */,
+				E342C4BF203C170E007132B2 /* alaves.png in Resources */,
+				E342C4C2203C170E007132B2 /* betis.png in Resources */,
+				E342C4E1203C1750007132B2 /* E3.png in Resources */,
+				E342C4CD203C170E007132B2 /* realmadrid.png in Resources */,
+				E342C4C6203C170E007132B2 /* espanyol.png in Resources */,
+				E342C4C0203C170E007132B2 /* athletic.png in Resources */,
+				E342C4D1203C170E007132B2 /* valencia.png in Resources */,
+				E342C4E2203C1750007132B2 /* EP.png in Resources */,
+				E342C4CA203C170E007132B2 /* leganes.png in Resources */,
+				E342C4C3203C170E007132B2 /* celta.png in Resources */,
 				E342C4A1203C1690007132B2 /* Assets.xcassets in Resources */,
-				E342C49C203C168F007132B2 /* Main.storyboard in Resources */,
+				E342C4C7203C170E007132B2 /* fcb.png in Resources */,
+				E342C4C4203C170E007132B2 /* depor.png in Resources */,
+				E342C4E0203C1750007132B2 /* E2.png in Resources */,
+				E342C4CC203C170E007132B2 /* osasuna.png in Resources */,
+				E342C4D2203C170E007132B2 /* villarreal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E342C499203C168F007132B2 /* ViewController.swift in Sources */,
+				E3AA3394203D977700E99396 /* EntradasTableViewController.swift in Sources */,
+				E3D256A9203ECA8D00936A8C /* JugadoresTableViewController.swift in Sources */,
 				E342C49F203C168F007132B2 /* IosMadrid.xcdatamodeld in Sources */,
+				E3419533203D6EE4004F9CD5 /* ImplementaJugadoresTableViewController.swift in Sources */,
 				E342C497203C168F007132B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,20 +300,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E342C49A203C168F007132B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E342C49B203C168F007132B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E342C4A2203C1690007132B2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E342C4A3203C1690007132B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E3D256AA203EDA7A00936A8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D256AB203EDA7A00936A8C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -303,6 +455,7 @@
 				E342C4AA203C1690007132B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
